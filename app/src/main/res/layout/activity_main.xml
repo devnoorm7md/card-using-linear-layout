@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/marginNormal"
+    tools:context=".MainActivity" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/paddingNormal"
+            android:background="@drawable/card_background"
+            android:orientation="horizontal">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:layout_width="@dimen/imageWidth"
+                    android:layout_height="@dimen/imageHeight"
+                    android:src="@drawable/noor"
+                    android:scaleType="centerCrop"
+                    app:shapeAppearanceOverlay="@style/rounded_image"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginStart"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/dm_sans_bold"
+                    android:text="@string/noor_mohammed"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textTittle"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop"
+                    android:fontFamily="@font/dm_sans_medium"
+                    android:text="@string/engineer"
+                    android:textColor="@color/black_eighty_six_transparency"
+                    android:textSize="@dimen/textNormal" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/location"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/dm_sans_medium"
+                        android:layout_marginStart="@dimen/marginStartUk"
+                        android:text="@string/uk"
+                        android:textColor="@color/black_sixty_transparency"
+                        android:textSize="@dimen/textNormal"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/marginTop"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/dm_sans_medium"
+                        android:text="@string/_150_reviews"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSmall" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/marginStartRating"
+                        android:fontFamily="@font/dm_sans_medium"
+                        android:text="@string/_4_5"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSmall" />
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="@dimen/marginStartStar"
+                        android:src="@drawable/star_icon"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_red_background"
+                android:fontFamily="@font/dm_sans_medium"
+                android:paddingLeft="@dimen/paddingLeftAndRight"
+                android:paddingTop="@dimen/paddingTopAndBottom"
+                android:paddingRight="@dimen/paddingLeftAndRight"
+                android:paddingBottom="@dimen/paddingTopAndBottom"
+                android:text="@string/_3_hr"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSmall"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginTopRussian"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="@string/russian"
+                android:textColor="@color/black_eighty_six_transparency"
+                android:textSize="@dimen/textSmall" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/dm_sans_medium"
+                android:text="@string/_5_days_ago"
+                android:layout_marginTop="@dimen/marginTopDays"
+                android:textColor="@color/black_thirty_eight_transparency"
+                android:textSize="@dimen/textSmall" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

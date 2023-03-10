@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textTittle">16sp</dimen>
+    <dimen name="textNormal">13sp</dimen>
+    <dimen name="paddingNormal">12dp</dimen>
+    <dimen name="marginNormal">16dp</dimen>
+    <dimen name="cardRadius">8dp</dimen>
+    <dimen name="imageWidth">93dp</dimen>
+    <dimen name="imageHeight">93dp</dimen>
+    <dimen name="marginStart">12dp</dimen>
+    <dimen name="marginTop">8dp</dimen>
+    <dimen name="marginStartUk">4dp</dimen>
+    <dimen name="textSmall">12sp</dimen>
+    <dimen name="marginStartRating">8dp</dimen>
+    <dimen name="marginStartStar">4dp</dimen>
+    <dimen name="paddingLeftAndRight">8dp</dimen>
+    <dimen name="paddingTopAndBottom">4dp</dimen>
+    <dimen name="marginTopDays">9dp</dimen>
+    <dimen name="marginTopRussian">12dp</dimen>
+</resources>
